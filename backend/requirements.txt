@@ -1,0 +1,49 @@
+#Framework para el LLM
+
+dspy-ai>=3.0.0
+
+#Librería específica para el modelo de Cohere
+
+cohere
+
+#Para hacer peticiones web asíncronas
+
+httpx
+
+#Para analizar y limpiar el HTML
+
+beautifulsoup4
+
+#Para la validación y estructura de datos
+
+pydantic
+
+#Para la generación de archivos PDF
+
+fpdf2
+
+#Para cargar variables de entorno desde el archivo .env
+
+python-dotenv
+
+#Para la API web
+
+fastapi
+uvicorn[standard]
+
+#Para la Base de Datos PostgreSQL
+
+psycopg2-binary
+
+#Para el ORM (Base de Datos)
+
+sqlalchemy
+
+#Pandas (útil para el Agente Escritor)
+
+pandas
+
+# ... (tus otras dependencias) ...
+duckduckgo-search>=4.0.0
+
+groq
